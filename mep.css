@@ -1,0 +1,521 @@
+.grise{
+    background-image: url('fondjeu.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 80%;
+    width: 60%;
+    margin:auto;
+    margin-top: 16%;
+} 
+
+
+.entete{
+    display:flex;
+    align-items:center;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height:20%;
+    z-index: 2;
+    top: 0%;
+    right: 0%;
+}
+
+.entete > .imgpieuvre{
+    height: 8em;
+    width: 8em;
+    margin-right:0%;
+}
+
+.entete > .imglamarck{
+    height: 8em;
+    width: 8em;
+    margin-right:15%;
+}
+
+
+.fond{
+    background-image: url('fond.png');
+    background-size: contain;
+}
+
+.rouge{
+    background-color: darkslategray;
+    min-height: 20%;
+    width: 60%;
+    margin:auto;
+}
+
+.bbody{
+    height: 80vh;
+    background-image:url('fond.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.boutontete{
+    width: 60px;
+    height: 60px;
+    margin-left: 10%;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.boutonjambe{
+    width: 60px;
+    height: 60px;
+    margin-left: 10%;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.boutoncorps{
+    width: 60px;
+    height: 60px;
+    margin-left: 10%;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.boutonbrasdroit{
+    width: 40px;
+    height: 60px;
+    margin-left: 10%;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.boutonbrasgauche{
+    width: 40px;
+    height: 60px;
+    margin-left: 10%;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.font{
+    font-family: "Phosphate";
+    color: saddlebrown;
+    font-size: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+}
+
+.logo{
+    height: 6em;
+    width: 6em;
+    margin-left: 5%;
+    margin-right: ;
+}
+
+nav{
+    height:5%;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    font-family: "Chalkduster";
+    font-size: 20px;
+    color: grey;
+}
+
+
+.tete{
+    position: relative;
+    top: 10px;
+    margin-left: 27.5%;
+    height: 24%;
+    width: 45%;
+    background-image: url('tetemodel.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 1;
+}
+
+.corps{
+    height: 100%;
+    width: 42%;
+    background-image: url('corpsmodel.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.brasg{
+    height: 100%;
+    width: 29%;
+    background-image: url('brasgauchemodel.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;            
+}
+
+.torse{
+    height: 36%;
+    width: 45%;
+    display: inline-flex;
+    margin-left: 27.5%;
+    margin-top: 1.1%;
+}
+
+.brasd{
+    height: 100%;
+    width: 29%;
+    background-image: url('brasdroitmodel.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.jambe{
+    height: 36%;
+    width: 45%;
+    margin-left: 27.5%;
+    background-image: url('piedmodel.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: -0.4%;
+}
+
+.casevertes{
+    max-width: 30%;
+    background-color:#27996C;
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 12px;
+    font-family: "Chalkduster";
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.casevertes2{
+    max-width: 80%;
+    background-color:#27996C;
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 12px;
+    margin: 10px auto;
+    font-family: "Chalkduster";
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.casemarron{
+    background-color:#B6A17E;
+    width: 80%;
+    padding: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.casevertes:hover{
+    background-color:#CAF4E4;
+}
+
+.titreCaseMarron{
+    font-family: "Chalkduster";
+    text-align: center;
+    color: white;
+}
+
+.titreCaseVerte{
+    font-family: "Chalkduster";
+    text-align: center;
+    color: white;
+}
+
+.titreCaseVerte:hover{
+    color: black;
+}
+
+.paragrapheCaseMarron{
+    font-family:"Skia";
+    color: white;
+    font-size: 20px;
+}
+
+.paragrapheCaseVerte{
+    font-family:"Skia";
+    color: white;
+    font-size: 20px;
+    color: white; 
+}
+
+.paragrapheCaseVerte:hover{
+    color:black;
+}
+
+.ligne{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.lignephoto{
+    display: flex;
+    justify-content: center;
+    margin-top: 15.5em;
+}
+
+
+.image{
+    max-height: 35em;
+}
+
+table{
+    border-collapse: collapse;
+    background-color: #DCD1C3;
+    text-align: center;
+    font-family: "Chalkduster";
+    font-size: 25px;
+    color:saddlebrown;
+}
+
+th,td{
+    padding: 30px;
+}
+
+.buttonVert{
+    background-color: darkgreen;
+    font-family: "Chalkduster";
+    color: white;
+    padding: 1em;
+    border-radius: 15px;
+    margin-left: 37em;
+}
+
+main{
+    padding-right:13%;
+    padding-left:13%;
+}
+
+.titre_article{
+	display:flex;
+	align-items: center;
+	justify-content:space-around;
+	font-family: phosphorus_selenide;
+	font-size: 2em;
+    color: saddlebrown;
+}
+.intro_article{
+	line-height: 1.8;
+	font-size: 1.3em;
+}
+
+.texte{
+	line-height: 1.8;
+	font-size:1.3em;
+}
+
+.logobouton{
+    width: 100%;
+    height: 100%;
+}
+
+figcaption{
+  text-align: center;
+  font-style:italic;
+}
+
+.figcamo{
+  display:flex;
+  justify-content: space-around;
+}
+.menu_article{
+    position:fixed;
+    top:20%;
+    height:10%;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    background-color:white;
+    font-family: "Chalkduster";
+    font-size: 20px;
+    color: grey;
+    z-index: 2;
+}
+
+.menu_article>div{
+    flex-grow:1;
+    display:flex;
+    justify-content: space-around;
+}
+
+div>a{
+    text-decoration: none;
+    font-size: 20px;
+    color: grey;
+}
+
+.frisedroite{
+    margin-top: 0,5em;
+    margin-left: 8%;
+    width: 40%;
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 12px;
+    font-family: "Chalkduster";
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    border-right: 2px solid black;
+}
+
+.frisegauche{
+    margin-top: 0,5em;
+    margin-left: 50%;
+    width: 40%;
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 10px;
+    font-family: "Chalkduster";
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    border-left: 2px solid black;
+}
+
+.timeline{
+    margin-top: 15em;
+}
+
+.dateDroit{
+    text-align: right;
+    font-size: 35px;
+    color: black;
+}
+
+.dateGauche{
+    text-align: left;
+    font-size: 35px;
+    color: black;
+}
+
+.texteFrise{
+    background-color:#27996C;
+    border-radius: 10px;
+    padding: 1em;
+    word-wrap: break-word;
+}
+
+.controller{
+    height: 30%;
+    width: 30%;
+}
+
+.Video {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a{
+    color: wheat;
+}
+
+.paragrapherevelation{
+    opacity: 10%;          
+}
+
+.paragrapherevelation:hover{
+    opacity: 100%;
+}
+
+.photonous{
+    height: 100%;
+    width: 20%;
+    margin-left:5%;
+}
+
+.image2{
+    margin-left: auto;
+    height: 20%;
+    width: 40%;
+}
+
+.ampoule{
+    height: 7%;
+    width: 6%;
+}
+
+.quisommesnoustd{
+    padding: 5px;
+}
+    
+.quisommesnoustab{
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.ligne2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-left: 13%;
+    margin-right: 17%;
+}
+
+.ligneimage{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    width: 100%;
+    height: 25%;
+}
+
+.loicimage{
+    background-image: url('imageloic.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.chouroukimage{
+    background-image: url('chouroukimage.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.valentinimage{
+    background-image: url('valpieuvre.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.valentinimage:hover{
+    background-image: url('valentinanimal.png');
+}
+
+.chouroukimage:hover{
+    background-image: url('chouroukanimal.png');
+}
+
+.loicimage:hover{
+    background-image: url('loicanimal.png')
+}
+
+footer{
+    padding-top: 1%;
+    display:flex;
+    margin-top: 2%;
+}
+
+footer>div{
+    display:flex;
+    flex:1 1 auto;
+    align-items: center;
+    justify-content:space-around;
+    background-color: saddlebrown;
+    border: 0px;
+    color: white;
+}
+
+
+
